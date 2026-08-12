@@ -20,7 +20,7 @@ if (( $ipTTL >= 0 && $ipTTL <= 255 )); then
 
 	if (( $ipTTL >= 50 && $ipTTL <= 75 )); then
 	  echo -e "${WHITE}-----------------------------${RST}"
-	  echo -e "  This is a ${GREEN}GNU\Linux${RST} Machine"
+	  echo -e " This is a ${GREEN}GNU\Linux${RST} Machine"
 	  echo -e "         TTL > ${GREEN}$ipTTL${RST}"
 	  echo -e "${WHITE}-----------------------------${RST}"
 	fi
