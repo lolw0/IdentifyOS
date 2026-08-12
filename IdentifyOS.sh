@@ -24,12 +24,12 @@ if (( $ipTTL >= 0 && $ipTTL <= 255 )); then
 	  echo -e "         TTL > ${GREEN}$ipTTL${RST}"
 	  echo -e "${WHITE}-----------------------------${RST}"
 	fi
-        if (( $ipTTL >= 110 && $ipTTL <= 135 )); then
+    if (( $ipTTL >= 110 && $ipTTL <= 135 )); then
 	  echo -e "${WHITE}-----------------------------${RST}"
           echo -e "  This is a ${GREEN}Windows${RST} Machine"
           echo -e "         TTL > ${GREEN}$ipTTL${RST}"
 	  echo -e "${WHITE}-----------------------------${RST}"
-        fi
+    fi
 else
 echo "do you even know if this thing is working on?"
 fi
